@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyCCfVjBRoDxxXiQ5qcg79tFTX8DV4pcIeU";
-
+const API_KEY =
+  process.env.EXPO_PUBLIC_GEMINI_API_KEY;
 export const askGemini = async (
   message,
   language

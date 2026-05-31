@@ -13,9 +13,8 @@ import {
 // FIREBASE CONFIG
 
 const firebaseConfig = {
-
   apiKey:
-    "AIzaSyAEZle8cXfvZqNB84EHiCO-pxhoFT2ZXDM",
+    process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
 
   authDomain:
     "aarthika2-a12ed.firebaseapp.com",
@@ -31,10 +30,6 @@ const firebaseConfig = {
 
   appId:
     "1:557922423769:web:d97bd1d331823c294d7fc8",
-
-  measurementId:
-    "G-HRTQGBFBCC",
-
 };
 
 // INITIALIZE APP
